@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-image: url(../slike/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.galerija-stranica {
+  background-image: none;
+  background-color: wheat;
+}
+
+#example-menu,
+.top-bar,
+.top-bar ul {
+  background-color: bisque;
+}
+
+.top-bar ul a {
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.orbit,
+.container {
+  margin-top: 48px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: bisque;
+  opacity: 0.9;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.orbit-slide {
+  padding-left: 68px;
+  padding-right: 68px;
+  max-height: 580px;
+  overflow: auto;
+}
+
+.more-opacity {
+  opacity: 0.8;
+}
+
+.container-galerija {
+  width: 80%;
+  border: 1px solid black;
+  opacity: 1;
+}
